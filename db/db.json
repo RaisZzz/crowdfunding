@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "name": "Pavel",
+      "email": "beats.tapping@gmail.com",
+      "password": "admin1",
+      "about": "Frontend-developer",
+      "age": "18",
+      "position": "Junior",
+      "region": "Moscow",
+      "projectName": "Web Startup",
+      "projectAbout": "Startup to create a simply web application to help other developers",
+      "projectCurVal": 0,
+      "projectNeedVal": 1000,
+      "id": 1
+    }
+  ]
+}

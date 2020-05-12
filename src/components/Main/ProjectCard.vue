@@ -6,10 +6,8 @@
             <p class="about"><b>About</b><br><span>{{ projectAbout }}</span></p>
         </div>
         <div class="needValue">
-                <span>
-                    <p class="value">{{ projectCurVal }} / {{ projectNeedVal }} $</p>
-                    <span class="inner" v-bind:style="'width:' + projectCurVal/projectNeedVal*934.88 + 'px'"></span>
-                </span>
+            <p class="value">{{ projectCurVal }} / {{ projectNeedVal }} $</p>
+            <span class="inner" v-bind:style="'width:' + projectCurVal/projectNeedVal*934.88 + 'px'"></span>
         </div>
         <a class="more" href="#">Подробнее</a>
     </div>
@@ -53,14 +51,14 @@
             .value
                 position: relative
                 z-index: 1
-                .inner
-                    position: absolute
-                    top: 0
-                    left: 0
-                    height: 100%
-                    width: 0
-                    z-index: 0
-                    background: darken(lightcoral, 10%)
+            .inner
+                position: absolute
+                top: 0
+                left: 0
+                height: 100%
+                width: 0
+                z-index: 0
+                background: darken(lightcoral, 10%)
         .more
             -webkit-writing-mode: vertical-rl
             writing-mode: tb-rl

@@ -63,7 +63,7 @@ export default new Vuex.Store({
             state.uid = payload.id;
             state.project.name = payload.projectName;
             state.project.about = payload.projectAbout;
-            state.project.curVal = 0;
+            state.project.curVal = payload.projectCurVal;
             state.project.needVal = payload.projectNeedVal;
         },
         uploadUsers(state, users) {
